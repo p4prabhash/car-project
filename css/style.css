@@ -1,0 +1,67 @@
+@import 'utilities.css';
+:root{
+    --primary:#0e0e0e;
+    --ternary:#898989;
+    --pure:#e1e7e7;
+    --light:rgba(230, 216, 230, 0.133);
+    --red:rgb(65, 27, 172);
+    --white:rgb(255, 255, 255);
+}
+body{
+    font-family: sans-serif;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiased
+}
+header{
+    background:var(--primary);
+    
+}
+.container{
+    max-width: width 1152px;
+    padding:0 15px;
+    margin:0 auto;
+}
+
+header nav .left a{
+    color:var(--pure);
+    text-decoration: none;
+    margin-right: 0.5rem;
+}
+header nav .left a:hover{
+    color:var(--red);
+}
+
+header nav {
+    padding:2rem 0;
+}
+header nav .prabhash{
+    margin-right: 1.5rem;
+}
+.car .left img{
+    width: 600px;
+}
+.car  .right{
+    color:var(--white);
+}
+.car .right h6{
+    font-size: 1.5rem;
+    color: rgb(65, 27, 172);
+    margin-bottom: 0.5rem;
+}
+.car .right h1{
+    font-size: 4rem;
+    font: weight 1oo;
+    line-height: 1.0;
+    margin-bottom: 2rem;
+}
+.car .right h1 span{
+    color: rgb(65, 27, 172);
+}
+.car right p{
+    line-height: 1.9;
+    margin-bottom: 1rem;
+}
